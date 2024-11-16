@@ -1,7 +1,11 @@
 <template>
   <v-app id="inspire">
     <v-navigation-drawer v-model="drawer">
-      <v-list-item title="Vuetify Task" subtitle="Task Waiting..."></v-list-item>
+      <v-list-item title="Rijal Fadhila" class="my-3" prepend-avatar="https://randomuser.me/api/portraits/men/85.jpg">
+        <template #subtitle>
+          email.user@email.com
+        </template>
+      </v-list-item>
       <v-divider></v-divider>
       <v-list density="compact" nav>
         <template v-for="item in items">
@@ -28,7 +32,7 @@
           <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
         </template>
 
-        <v-app-bar-title>Vuetify Task</v-app-bar-title>
+        <v-app-bar-title>Fosan Task <br> <small class="text-disabled">made with <a href="http://vuetifyjs.com" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">Vuetify</a></small></v-app-bar-title>
 
         <v-spacer></v-spacer>
 
