@@ -2,10 +2,10 @@
   <v-container id="counter" class="counter bg-surface-variant text-center">
     <v-row no-gutters justify="center">
       <v-col cols="12" sm="4">
-        <v-sheet class="ma-2 pa-2">
-          Counter Page
-          <div class="text-italic">(pinia)</div>
-        </v-sheet>
+          <div class="font-weight-bold text-h4">
+            Counter Page
+          </div>
+          <v-img class="mb-3" height="50" src="@/assets/pinia_logo.svg" />
       </v-col>
     </v-row>
     <v-row>
